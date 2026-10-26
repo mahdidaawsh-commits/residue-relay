@@ -1,0 +1,48 @@
+{
+  "configuration": {
+    "cohort": "corrupt",
+    "fault_limit": 2,
+    "hashes": [
+      "c7c151fa9eedb9d743b1e3d8200908c55ef8c23285dc9079f7da7a4045b5460c",
+      "a059d4a41365e487579ae03c869608421e166806c691e7f3a3f7b1048a979bdf",
+      "7ef414e8ac0441e4f5a857bef4d79b176030c0a3130080d7099fd4335360f48a",
+      "a77bb389a714f1416c83442c3b0efe3a9c7073c0d3fd0bcacda29ffc3ed14f10",
+      "24c3051e52f92f896f893bbbdf92ee931cf2dab8acd5147dfc3dc903b9a701c1"
+    ],
+    "prime": 17,
+    "repository": "mahdidaawsh-commits/residue-relay",
+    "urls": [
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/corrupt-1.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/corrupt-2.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/corrupt-3.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/corrupt-4.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/corrupt-5.json"
+    ]
+  },
+  "observations": [
+    {
+      "position": 1,
+      "status": "UNSEEN"
+    },
+    {
+      "position": 2,
+      "status": "UNSEEN"
+    },
+    {
+      "position": 3,
+      "status": "UNSEEN"
+    },
+    {
+      "position": 4,
+      "status": "UNSEEN"
+    },
+    {
+      "position": 5,
+      "status": "UNSEEN"
+    }
+  ],
+  "reconstruction": {
+    "status": "COLLECTING"
+  },
+  "repairs": []
+}

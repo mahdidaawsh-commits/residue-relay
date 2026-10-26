@@ -1,0 +1,153 @@
+{
+  "scope": "erasures",
+  "mode": "fresh-rpc-and-state",
+  "verified_at": "2026-10-26T06:36:42.586Z",
+  "source_sha256": "7bda9b6ac4606cc2fc9a3afe58ebc11f978ca6de8ef087b5c2e7b39089f5e7d3",
+  "instances": [
+    {
+      "id": "erasures",
+      "contract": "0x9f2A4CACFa3dF80FfA7f86EE61c8312a42CCE1b3",
+      "status": "RECOVERED",
+      "complete_list": true,
+      "candidates": 1,
+      "repairs": 2,
+      "views": 10
+    }
+  ],
+  "transactions": [
+    {
+      "label": "erasures-deployment",
+      "hash": "0xb028ce6052d8d1b12130ba16084b2155e94948e13b1487589a3be4857df7e168",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "erasures-first",
+      "hash": "0xf2804045cf8025e9f0c4856bce3bd441dae042fa40bc9192195b747634ba9282",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "erasures-early",
+      "hash": "0x23ea50969cc5b26bc6ea417362a19320c70fd7cacf0c4f0fe71d5b57705e99cc",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "erasures-second",
+      "hash": "0x3f4942c9513e05921129f6d79601ae12fb0cc5240534576db47d686e2e1be83d",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "erasures-duplicate",
+      "hash": "0xc29ba2bc54287af7af37fed4f4229cc0b32044cf33bf981835ed7c3228b42f70",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "erasures-seal",
+      "hash": "0xee32b57a8dcd8aefeffd4335e01dcc072f9008570ce4852ec24f6c4e4ae21170",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "erasures-reseal",
+      "hash": "0x237f0e4ec0275dcf731f9917a100488ec75fb466cd0ae2f54d0084c5fddceb6e",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "erasures-repair-two",
+      "hash": "0x23014997b7f544b2bf27c517cb1331b0828ace26940eff302b9b0903c3d8ebfd",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "erasures-repair-four",
+      "hash": "0xd152b2508aac6e6bb73d1ec7cff4023ed3921fea422344436d0939feb059220b",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    },
+    {
+      "label": "erasures-duplicate-repair",
+      "hash": "0x091a5661ecbf2def53fbf1d0632ead32491ee61dc346e92aa24c9562a262370e",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "round_count": "1",
+      "rotation_count": 0
+    }
+  ],
+  "transaction_calldata_checked": true,
+  "rejection_bytes_checked": true,
+  "independent_exhaustive_field_oracle": true,
+  "live_state_match": true
+}

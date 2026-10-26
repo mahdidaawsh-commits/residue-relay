@@ -1,0 +1,276 @@
+[
+  {
+    "method": "probe",
+    "args": [
+      0
+    ],
+    "result": {
+      "candidates": [],
+      "complete_list": true,
+      "erasures": 2,
+      "limit": 0,
+      "status": "OUTSIDE_BUDGET",
+      "unique_bound": true
+    }
+  },
+  {
+    "method": "probe",
+    "args": [
+      1
+    ],
+    "result": {
+      "candidates": [],
+      "complete_list": true,
+      "erasures": 2,
+      "limit": 1,
+      "status": "OUTSIDE_BUDGET",
+      "unique_bound": true
+    }
+  },
+  {
+    "method": "probe",
+    "args": [
+      2
+    ],
+    "result": {
+      "candidates": [
+        {
+          "codeword": [
+            9,
+            1,
+            14,
+            14,
+            1
+          ],
+          "coefficients": [
+            4,
+            3,
+            2
+          ],
+          "erasures": [
+            2,
+            4
+          ],
+          "fault_weight": 2,
+          "mismatches": [],
+          "support": [
+            1,
+            3,
+            5
+          ]
+        }
+      ],
+      "complete_list": true,
+      "erasures": 2,
+      "limit": 2,
+      "status": "RECOVERED",
+      "unique_bound": true
+    }
+  },
+  {
+    "method": "probe",
+    "args": [
+      3
+    ],
+    "result": {
+      "candidates": [
+        {
+          "codeword": [
+            9,
+            1,
+            14,
+            14,
+            1
+          ],
+          "coefficients": [
+            4,
+            3,
+            2
+          ],
+          "erasures": [
+            2,
+            4
+          ],
+          "fault_weight": 2,
+          "mismatches": [],
+          "support": [
+            1,
+            3,
+            5
+          ]
+        }
+      ],
+      "complete_list": true,
+      "erasures": 2,
+      "limit": 3,
+      "status": "RECOVERED",
+      "unique_bound": false
+    }
+  },
+  {
+    "method": "probe",
+    "args": [
+      4
+    ],
+    "result": {
+      "candidates": [
+        {
+          "codeword": [
+            9,
+            1,
+            14,
+            14,
+            1
+          ],
+          "coefficients": [
+            4,
+            3,
+            2
+          ],
+          "erasures": [
+            2,
+            4
+          ],
+          "fault_weight": 2,
+          "mismatches": [],
+          "support": [
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "codeword": [
+            9,
+            0,
+            14,
+            0,
+            9
+          ],
+          "coefficients": [
+            7,
+            16,
+            3
+          ],
+          "erasures": [
+            2,
+            4
+          ],
+          "fault_weight": 4,
+          "mismatches": [
+            5
+          ],
+          "support": [
+            1,
+            3
+          ]
+        }
+      ],
+      "complete_list": false,
+      "erasures": 2,
+      "limit": 4,
+      "status": "AMBIGUOUS",
+      "unique_bound": false
+    }
+  },
+  {
+    "method": "repair_packet",
+    "args": [
+      1
+    ],
+    "result": {
+      "coefficients": [
+        4,
+        3,
+        2
+      ],
+      "cohort": "erasures",
+      "observed": 9,
+      "polynomial_commitment": "9ee51fe59f6575e04f41992eba900cadef2e1def34776cc7ea79271320ecffb2",
+      "position": 1,
+      "recovered": 9,
+      "required": false,
+      "source_sha256": "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632"
+    }
+  },
+  {
+    "method": "repair_packet",
+    "args": [
+      2
+    ],
+    "result": {
+      "coefficients": [
+        4,
+        3,
+        2
+      ],
+      "cohort": "erasures",
+      "observed": "UNKNOWN",
+      "polynomial_commitment": "9ee51fe59f6575e04f41992eba900cadef2e1def34776cc7ea79271320ecffb2",
+      "position": 2,
+      "recovered": 1,
+      "required": true,
+      "source_sha256": "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3"
+    }
+  },
+  {
+    "method": "repair_packet",
+    "args": [
+      3
+    ],
+    "result": {
+      "coefficients": [
+        4,
+        3,
+        2
+      ],
+      "cohort": "erasures",
+      "observed": 14,
+      "polynomial_commitment": "9ee51fe59f6575e04f41992eba900cadef2e1def34776cc7ea79271320ecffb2",
+      "position": 3,
+      "recovered": 14,
+      "required": false,
+      "source_sha256": "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09"
+    }
+  },
+  {
+    "method": "repair_packet",
+    "args": [
+      4
+    ],
+    "result": {
+      "coefficients": [
+        4,
+        3,
+        2
+      ],
+      "cohort": "erasures",
+      "observed": "UNKNOWN",
+      "polynomial_commitment": "9ee51fe59f6575e04f41992eba900cadef2e1def34776cc7ea79271320ecffb2",
+      "position": 4,
+      "recovered": 14,
+      "required": true,
+      "source_sha256": "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480"
+    }
+  },
+  {
+    "method": "repair_packet",
+    "args": [
+      5
+    ],
+    "result": {
+      "coefficients": [
+        4,
+        3,
+        2
+      ],
+      "cohort": "erasures",
+      "observed": 1,
+      "polynomial_commitment": "9ee51fe59f6575e04f41992eba900cadef2e1def34776cc7ea79271320ecffb2",
+      "position": 5,
+      "recovered": 1,
+      "required": false,
+      "source_sha256": "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+    }
+  }
+]

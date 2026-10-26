@@ -1,0 +1,1788 @@
+[
+  {
+    "name": "first",
+    "label": "erasures-first",
+    "method": "collect",
+    "args": [
+      [
+        1,
+        2
+      ]
+    ],
+    "transaction": "0xf2804045cf8025e9f0c4856bce3bd441dae042fa40bc9192195b747634ba9282",
+    "state_before": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "status": "UNSEEN"
+        },
+        {
+          "position": 2,
+          "status": "UNSEEN"
+        },
+        {
+          "position": 3,
+          "status": "UNSEEN"
+        },
+        {
+          "position": 4,
+          "status": "UNSEEN"
+        },
+        {
+          "position": 5,
+          "status": "UNSEEN"
+        }
+      ],
+      "reconstruction": {
+        "status": "COLLECTING"
+      },
+      "repairs": []
+    },
+    "state": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "status": "UNSEEN"
+        },
+        {
+          "position": 4,
+          "status": "UNSEEN"
+        },
+        {
+          "position": 5,
+          "status": "UNSEEN"
+        }
+      ],
+      "reconstruction": {
+        "status": "COLLECTING"
+      },
+      "repairs": []
+    }
+  },
+  {
+    "name": "early",
+    "label": "erasures-early",
+    "method": "seal",
+    "args": [],
+    "error": "[EXPECTED] Five observations required",
+    "transaction": "0x23ea50969cc5b26bc6ea417362a19320c70fd7cacf0c4f0fe71d5b57705e99cc",
+    "state_before": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "status": "UNSEEN"
+        },
+        {
+          "position": 4,
+          "status": "UNSEEN"
+        },
+        {
+          "position": 5,
+          "status": "UNSEEN"
+        }
+      ],
+      "reconstruction": {
+        "status": "COLLECTING"
+      },
+      "repairs": []
+    },
+    "state": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "status": "UNSEEN"
+        },
+        {
+          "position": 4,
+          "status": "UNSEEN"
+        },
+        {
+          "position": 5,
+          "status": "UNSEEN"
+        }
+      ],
+      "reconstruction": {
+        "status": "COLLECTING"
+      },
+      "repairs": []
+    }
+  },
+  {
+    "name": "second",
+    "label": "erasures-second",
+    "method": "collect",
+    "args": [
+      [
+        3,
+        4,
+        5
+      ]
+    ],
+    "transaction": "0x3f4942c9513e05921129f6d79601ae12fb0cc5240534576db47d686e2e1be83d",
+    "state_before": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "status": "UNSEEN"
+        },
+        {
+          "position": 4,
+          "status": "UNSEEN"
+        },
+        {
+          "position": 5,
+          "status": "UNSEEN"
+        }
+      ],
+      "reconstruction": {
+        "status": "COLLECTING"
+      },
+      "repairs": []
+    },
+    "state": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "source": {
+            "cohort": "erasures",
+            "position": 3,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 3. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 14
+        },
+        {
+          "position": 4,
+          "source": {
+            "cohort": "erasures",
+            "position": 4,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 4. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 5,
+          "source": {
+            "cohort": "erasures",
+            "position": 5,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 5. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+          },
+          "status": "OBSERVED",
+          "value": 1
+        }
+      ],
+      "reconstruction": {
+        "status": "COLLECTING"
+      },
+      "repairs": []
+    }
+  },
+  {
+    "name": "duplicate",
+    "label": "erasures-duplicate",
+    "method": "collect",
+    "args": [
+      [
+        1
+      ]
+    ],
+    "error": "[EXPECTED] Position already observed",
+    "transaction": "0xc29ba2bc54287af7af37fed4f4229cc0b32044cf33bf981835ed7c3228b42f70",
+    "state_before": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "source": {
+            "cohort": "erasures",
+            "position": 3,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 3. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 14
+        },
+        {
+          "position": 4,
+          "source": {
+            "cohort": "erasures",
+            "position": 4,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 4. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 5,
+          "source": {
+            "cohort": "erasures",
+            "position": 5,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 5. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+          },
+          "status": "OBSERVED",
+          "value": 1
+        }
+      ],
+      "reconstruction": {
+        "status": "COLLECTING"
+      },
+      "repairs": []
+    },
+    "state": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "source": {
+            "cohort": "erasures",
+            "position": 3,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 3. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 14
+        },
+        {
+          "position": 4,
+          "source": {
+            "cohort": "erasures",
+            "position": 4,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 4. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 5,
+          "source": {
+            "cohort": "erasures",
+            "position": 5,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 5. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+          },
+          "status": "OBSERVED",
+          "value": 1
+        }
+      ],
+      "reconstruction": {
+        "status": "COLLECTING"
+      },
+      "repairs": []
+    }
+  },
+  {
+    "name": "seal",
+    "label": "erasures-seal",
+    "method": "seal",
+    "args": [],
+    "transaction": "0xee32b57a8dcd8aefeffd4335e01dcc072f9008570ce4852ec24f6c4e4ae21170",
+    "state_before": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "source": {
+            "cohort": "erasures",
+            "position": 3,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 3. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 14
+        },
+        {
+          "position": 4,
+          "source": {
+            "cohort": "erasures",
+            "position": 4,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 4. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 5,
+          "source": {
+            "cohort": "erasures",
+            "position": 5,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 5. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+          },
+          "status": "OBSERVED",
+          "value": 1
+        }
+      ],
+      "reconstruction": {
+        "status": "COLLECTING"
+      },
+      "repairs": []
+    },
+    "state": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "source": {
+            "cohort": "erasures",
+            "position": 3,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 3. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 14
+        },
+        {
+          "position": 4,
+          "source": {
+            "cohort": "erasures",
+            "position": 4,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 4. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 5,
+          "source": {
+            "cohort": "erasures",
+            "position": 5,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 5. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+          },
+          "status": "OBSERVED",
+          "value": 1
+        }
+      ],
+      "reconstruction": {
+        "candidates": [
+          {
+            "codeword": [
+              9,
+              1,
+              14,
+              14,
+              1
+            ],
+            "coefficients": [
+              4,
+              3,
+              2
+            ],
+            "erasures": [
+              2,
+              4
+            ],
+            "fault_weight": 2,
+            "mismatches": [],
+            "support": [
+              1,
+              3,
+              5
+            ]
+          }
+        ],
+        "complete_list": true,
+        "erasures": 2,
+        "limit": 2,
+        "status": "RECOVERED",
+        "unique_bound": true
+      },
+      "repairs": []
+    }
+  },
+  {
+    "name": "reseal",
+    "label": "erasures-reseal",
+    "method": "seal",
+    "args": [],
+    "error": "[EXPECTED] Cohort sealed",
+    "transaction": "0x237f0e4ec0275dcf731f9917a100488ec75fb466cd0ae2f54d0084c5fddceb6e",
+    "state_before": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "source": {
+            "cohort": "erasures",
+            "position": 3,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 3. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 14
+        },
+        {
+          "position": 4,
+          "source": {
+            "cohort": "erasures",
+            "position": 4,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 4. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 5,
+          "source": {
+            "cohort": "erasures",
+            "position": 5,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 5. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+          },
+          "status": "OBSERVED",
+          "value": 1
+        }
+      ],
+      "reconstruction": {
+        "candidates": [
+          {
+            "codeword": [
+              9,
+              1,
+              14,
+              14,
+              1
+            ],
+            "coefficients": [
+              4,
+              3,
+              2
+            ],
+            "erasures": [
+              2,
+              4
+            ],
+            "fault_weight": 2,
+            "mismatches": [],
+            "support": [
+              1,
+              3,
+              5
+            ]
+          }
+        ],
+        "complete_list": true,
+        "erasures": 2,
+        "limit": 2,
+        "status": "RECOVERED",
+        "unique_bound": true
+      },
+      "repairs": []
+    },
+    "state": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "source": {
+            "cohort": "erasures",
+            "position": 3,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 3. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 14
+        },
+        {
+          "position": 4,
+          "source": {
+            "cohort": "erasures",
+            "position": 4,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 4. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 5,
+          "source": {
+            "cohort": "erasures",
+            "position": 5,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 5. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+          },
+          "status": "OBSERVED",
+          "value": 1
+        }
+      ],
+      "reconstruction": {
+        "candidates": [
+          {
+            "codeword": [
+              9,
+              1,
+              14,
+              14,
+              1
+            ],
+            "coefficients": [
+              4,
+              3,
+              2
+            ],
+            "erasures": [
+              2,
+              4
+            ],
+            "fault_weight": 2,
+            "mismatches": [],
+            "support": [
+              1,
+              3,
+              5
+            ]
+          }
+        ],
+        "complete_list": true,
+        "erasures": 2,
+        "limit": 2,
+        "status": "RECOVERED",
+        "unique_bound": true
+      },
+      "repairs": []
+    }
+  },
+  {
+    "name": "repair-two",
+    "label": "erasures-repair-two",
+    "method": "record_repair",
+    "args": [
+      2
+    ],
+    "transaction": "0x23014997b7f544b2bf27c517cb1331b0828ace26940eff302b9b0903c3d8ebfd",
+    "state_before": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "source": {
+            "cohort": "erasures",
+            "position": 3,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 3. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 14
+        },
+        {
+          "position": 4,
+          "source": {
+            "cohort": "erasures",
+            "position": 4,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 4. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 5,
+          "source": {
+            "cohort": "erasures",
+            "position": 5,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 5. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+          },
+          "status": "OBSERVED",
+          "value": 1
+        }
+      ],
+      "reconstruction": {
+        "candidates": [
+          {
+            "codeword": [
+              9,
+              1,
+              14,
+              14,
+              1
+            ],
+            "coefficients": [
+              4,
+              3,
+              2
+            ],
+            "erasures": [
+              2,
+              4
+            ],
+            "fault_weight": 2,
+            "mismatches": [],
+            "support": [
+              1,
+              3,
+              5
+            ]
+          }
+        ],
+        "complete_list": true,
+        "erasures": 2,
+        "limit": 2,
+        "status": "RECOVERED",
+        "unique_bound": true
+      },
+      "repairs": []
+    },
+    "state": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "source": {
+            "cohort": "erasures",
+            "position": 3,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 3. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 14
+        },
+        {
+          "position": 4,
+          "source": {
+            "cohort": "erasures",
+            "position": 4,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 4. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 5,
+          "source": {
+            "cohort": "erasures",
+            "position": 5,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 5. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+          },
+          "status": "OBSERVED",
+          "value": 1
+        }
+      ],
+      "reconstruction": {
+        "candidates": [
+          {
+            "codeword": [
+              9,
+              1,
+              14,
+              14,
+              1
+            ],
+            "coefficients": [
+              4,
+              3,
+              2
+            ],
+            "erasures": [
+              2,
+              4
+            ],
+            "fault_weight": 2,
+            "mismatches": [],
+            "support": [
+              1,
+              3,
+              5
+            ]
+          }
+        ],
+        "complete_list": true,
+        "erasures": 2,
+        "limit": 2,
+        "status": "RECOVERED",
+        "unique_bound": true
+      },
+      "repairs": [
+        {
+          "coefficients": [
+            4,
+            3,
+            2
+          ],
+          "cohort": "erasures",
+          "observed": "UNKNOWN",
+          "polynomial_commitment": "9ee51fe59f6575e04f41992eba900cadef2e1def34776cc7ea79271320ecffb2",
+          "position": 2,
+          "recovered": 1,
+          "required": true,
+          "source_sha256": "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3"
+        }
+      ]
+    }
+  },
+  {
+    "name": "repair-four",
+    "label": "erasures-repair-four",
+    "method": "record_repair",
+    "args": [
+      4
+    ],
+    "transaction": "0xd152b2508aac6e6bb73d1ec7cff4023ed3921fea422344436d0939feb059220b",
+    "state_before": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "source": {
+            "cohort": "erasures",
+            "position": 3,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 3. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 14
+        },
+        {
+          "position": 4,
+          "source": {
+            "cohort": "erasures",
+            "position": 4,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 4. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 5,
+          "source": {
+            "cohort": "erasures",
+            "position": 5,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 5. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+          },
+          "status": "OBSERVED",
+          "value": 1
+        }
+      ],
+      "reconstruction": {
+        "candidates": [
+          {
+            "codeword": [
+              9,
+              1,
+              14,
+              14,
+              1
+            ],
+            "coefficients": [
+              4,
+              3,
+              2
+            ],
+            "erasures": [
+              2,
+              4
+            ],
+            "fault_weight": 2,
+            "mismatches": [],
+            "support": [
+              1,
+              3,
+              5
+            ]
+          }
+        ],
+        "complete_list": true,
+        "erasures": 2,
+        "limit": 2,
+        "status": "RECOVERED",
+        "unique_bound": true
+      },
+      "repairs": [
+        {
+          "coefficients": [
+            4,
+            3,
+            2
+          ],
+          "cohort": "erasures",
+          "observed": "UNKNOWN",
+          "polynomial_commitment": "9ee51fe59f6575e04f41992eba900cadef2e1def34776cc7ea79271320ecffb2",
+          "position": 2,
+          "recovered": 1,
+          "required": true,
+          "source_sha256": "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3"
+        }
+      ]
+    },
+    "state": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "source": {
+            "cohort": "erasures",
+            "position": 3,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 3. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 14
+        },
+        {
+          "position": 4,
+          "source": {
+            "cohort": "erasures",
+            "position": 4,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 4. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 5,
+          "source": {
+            "cohort": "erasures",
+            "position": 5,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 5. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+          },
+          "status": "OBSERVED",
+          "value": 1
+        }
+      ],
+      "reconstruction": {
+        "candidates": [
+          {
+            "codeword": [
+              9,
+              1,
+              14,
+              14,
+              1
+            ],
+            "coefficients": [
+              4,
+              3,
+              2
+            ],
+            "erasures": [
+              2,
+              4
+            ],
+            "fault_weight": 2,
+            "mismatches": [],
+            "support": [
+              1,
+              3,
+              5
+            ]
+          }
+        ],
+        "complete_list": true,
+        "erasures": 2,
+        "limit": 2,
+        "status": "RECOVERED",
+        "unique_bound": true
+      },
+      "repairs": [
+        {
+          "coefficients": [
+            4,
+            3,
+            2
+          ],
+          "cohort": "erasures",
+          "observed": "UNKNOWN",
+          "polynomial_commitment": "9ee51fe59f6575e04f41992eba900cadef2e1def34776cc7ea79271320ecffb2",
+          "position": 2,
+          "recovered": 1,
+          "required": true,
+          "source_sha256": "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3"
+        },
+        {
+          "coefficients": [
+            4,
+            3,
+            2
+          ],
+          "cohort": "erasures",
+          "observed": "UNKNOWN",
+          "polynomial_commitment": "9ee51fe59f6575e04f41992eba900cadef2e1def34776cc7ea79271320ecffb2",
+          "position": 4,
+          "recovered": 14,
+          "required": true,
+          "source_sha256": "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480"
+        }
+      ]
+    }
+  },
+  {
+    "name": "duplicate-repair",
+    "label": "erasures-duplicate-repair",
+    "method": "record_repair",
+    "args": [
+      2
+    ],
+    "error": "[EXPECTED] Repair already recorded",
+    "transaction": "0x091a5661ecbf2def53fbf1d0632ead32491ee61dc346e92aa24c9562a262370e",
+    "state_before": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "source": {
+            "cohort": "erasures",
+            "position": 3,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 3. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 14
+        },
+        {
+          "position": 4,
+          "source": {
+            "cohort": "erasures",
+            "position": 4,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 4. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 5,
+          "source": {
+            "cohort": "erasures",
+            "position": 5,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 5. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+          },
+          "status": "OBSERVED",
+          "value": 1
+        }
+      ],
+      "reconstruction": {
+        "candidates": [
+          {
+            "codeword": [
+              9,
+              1,
+              14,
+              14,
+              1
+            ],
+            "coefficients": [
+              4,
+              3,
+              2
+            ],
+            "erasures": [
+              2,
+              4
+            ],
+            "fault_weight": 2,
+            "mismatches": [],
+            "support": [
+              1,
+              3,
+              5
+            ]
+          }
+        ],
+        "complete_list": true,
+        "erasures": 2,
+        "limit": 2,
+        "status": "RECOVERED",
+        "unique_bound": true
+      },
+      "repairs": [
+        {
+          "coefficients": [
+            4,
+            3,
+            2
+          ],
+          "cohort": "erasures",
+          "observed": "UNKNOWN",
+          "polynomial_commitment": "9ee51fe59f6575e04f41992eba900cadef2e1def34776cc7ea79271320ecffb2",
+          "position": 2,
+          "recovered": 1,
+          "required": true,
+          "source_sha256": "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3"
+        },
+        {
+          "coefficients": [
+            4,
+            3,
+            2
+          ],
+          "cohort": "erasures",
+          "observed": "UNKNOWN",
+          "polynomial_commitment": "9ee51fe59f6575e04f41992eba900cadef2e1def34776cc7ea79271320ecffb2",
+          "position": 4,
+          "recovered": 14,
+          "required": true,
+          "source_sha256": "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480"
+        }
+      ]
+    },
+    "state": {
+      "configuration": {
+        "cohort": "erasures",
+        "fault_limit": 2,
+        "hashes": [
+          "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+          "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+          "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+          "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+          "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+        ],
+        "prime": 17,
+        "repository": "mahdidaawsh-commits/residue-relay",
+        "urls": [
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+          "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+        ]
+      },
+      "observations": [
+        {
+          "position": 1,
+          "source": {
+            "cohort": "erasures",
+            "position": 1,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 9
+        },
+        {
+          "position": 2,
+          "source": {
+            "cohort": "erasures",
+            "position": 2,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 3,
+          "source": {
+            "cohort": "erasures",
+            "position": 3,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 3. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+          },
+          "status": "OBSERVED",
+          "value": 14
+        },
+        {
+          "position": 4,
+          "source": {
+            "cohort": "erasures",
+            "position": 4,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 4. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+          },
+          "status": "OBSERVED",
+          "value": "UNKNOWN"
+        },
+        {
+          "position": 5,
+          "source": {
+            "cohort": "erasures",
+            "position": 5,
+            "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 5. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+          },
+          "status": "OBSERVED",
+          "value": 1
+        }
+      ],
+      "reconstruction": {
+        "candidates": [
+          {
+            "codeword": [
+              9,
+              1,
+              14,
+              14,
+              1
+            ],
+            "coefficients": [
+              4,
+              3,
+              2
+            ],
+            "erasures": [
+              2,
+              4
+            ],
+            "fault_weight": 2,
+            "mismatches": [],
+            "support": [
+              1,
+              3,
+              5
+            ]
+          }
+        ],
+        "complete_list": true,
+        "erasures": 2,
+        "limit": 2,
+        "status": "RECOVERED",
+        "unique_bound": true
+      },
+      "repairs": [
+        {
+          "coefficients": [
+            4,
+            3,
+            2
+          ],
+          "cohort": "erasures",
+          "observed": "UNKNOWN",
+          "polynomial_commitment": "9ee51fe59f6575e04f41992eba900cadef2e1def34776cc7ea79271320ecffb2",
+          "position": 2,
+          "recovered": 1,
+          "required": true,
+          "source_sha256": "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3"
+        },
+        {
+          "coefficients": [
+            4,
+            3,
+            2
+          ],
+          "cohort": "erasures",
+          "observed": "UNKNOWN",
+          "polynomial_commitment": "9ee51fe59f6575e04f41992eba900cadef2e1def34776cc7ea79271320ecffb2",
+          "position": 4,
+          "recovered": 14,
+          "required": true,
+          "source_sha256": "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480"
+        }
+      ]
+    }
+  }
+]

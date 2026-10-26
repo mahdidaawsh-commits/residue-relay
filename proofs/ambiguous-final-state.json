@@ -1,0 +1,334 @@
+{
+  "configuration": {
+    "cohort": "ambiguous",
+    "fault_limit": 4,
+    "hashes": [
+      "072103e82962b9f1d94239f0f884f7e67f9eaeb2a4cf15ed4721cb61309931bd",
+      "584acaa578d3de3571db0df387d055a219b84df92676592f494d770bffcd86fb",
+      "5c583f42528e2f16ef533147ae28b932470eba54046541d0bdc474fdf1b2801f",
+      "f95ad1ab5b29f03ee32314d7827f5dfde696a9630807295ee53f0b3bdd1e4939",
+      "3a01104b5f0db4f8fefa076f7bd82fe397382aab1e81b78f139ed11a5ff39f7a"
+    ],
+    "prime": 17,
+    "repository": "mahdidaawsh-commits/residue-relay",
+    "urls": [
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/ambiguous-1.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/ambiguous-2.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/ambiguous-3.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/ambiguous-4.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/ambiguous-5.json"
+    ]
+  },
+  "observations": [
+    {
+      "position": 1,
+      "source": {
+        "cohort": "ambiguous",
+        "position": 1,
+        "text": "Public synthetic GF(17) coded-record fragment. Cohort ambiguous; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+      },
+      "status": "OBSERVED",
+      "value": 9
+    },
+    {
+      "position": 2,
+      "source": {
+        "cohort": "ambiguous",
+        "position": 2,
+        "text": "Public synthetic GF(17) coded-record fragment. Cohort ambiguous; evaluation position 2. A provisional note proposed six; it was superseded. The current final observed symbol is eight (8). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+      },
+      "status": "OBSERVED",
+      "value": 8
+    },
+    {
+      "position": 3,
+      "source": {
+        "cohort": "ambiguous",
+        "position": 3,
+        "text": "Public synthetic GF(17) coded-record fragment. Cohort ambiguous; evaluation position 3. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+      },
+      "status": "OBSERVED",
+      "value": 14
+    },
+    {
+      "position": 4,
+      "source": {
+        "cohort": "ambiguous",
+        "position": 4,
+        "text": "Public synthetic GF(17) coded-record fragment. Cohort ambiguous; evaluation position 4. A provisional note proposed six; it was superseded. The current final observed symbol is seven (7). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+      },
+      "status": "OBSERVED",
+      "value": 7
+    },
+    {
+      "position": 5,
+      "source": {
+        "cohort": "ambiguous",
+        "position": 5,
+        "text": "Public synthetic GF(17) coded-record fragment. Cohort ambiguous; evaluation position 5. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+      },
+      "status": "OBSERVED",
+      "value": 1
+    }
+  ],
+  "reconstruction": {
+    "candidates": [
+      {
+        "codeword": [
+          3,
+          8,
+          15,
+          7,
+          1
+        ],
+        "coefficients": [
+          0,
+          2,
+          1
+        ],
+        "erasures": [],
+        "fault_weight": 4,
+        "mismatches": [
+          1,
+          3
+        ],
+        "support": [
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "codeword": [
+          9,
+          8,
+          14,
+          10,
+          13
+        ],
+        "coefficients": [
+          0,
+          14,
+          12
+        ],
+        "erasures": [],
+        "fault_weight": 4,
+        "mismatches": [
+          4,
+          5
+        ],
+        "support": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "codeword": [
+          9,
+          1,
+          14,
+          14,
+          1
+        ],
+        "coefficients": [
+          4,
+          3,
+          2
+        ],
+        "erasures": [],
+        "fault_weight": 4,
+        "mismatches": [
+          2,
+          4
+        ],
+        "support": [
+          1,
+          3,
+          5
+        ]
+      },
+      {
+        "codeword": [
+          5,
+          8,
+          14,
+          6,
+          1
+        ],
+        "coefficients": [
+          5,
+          7,
+          10
+        ],
+        "erasures": [],
+        "fault_weight": 4,
+        "mismatches": [
+          1,
+          4
+        ],
+        "support": [
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "codeword": [
+          14,
+          5,
+          14,
+          7,
+          1
+        ],
+        "coefficients": [
+          7,
+          15,
+          9
+        ],
+        "erasures": [],
+        "fault_weight": 4,
+        "mismatches": [
+          1,
+          2
+        ],
+        "support": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "codeword": [
+          6,
+          8,
+          14,
+          7,
+          4
+        ],
+        "coefficients": [
+          8,
+          13,
+          2
+        ],
+        "erasures": [],
+        "fault_weight": 4,
+        "mismatches": [
+          1,
+          5
+        ],
+        "support": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "codeword": [
+          9,
+          11,
+          16,
+          7,
+          1
+        ],
+        "coefficients": [
+          10,
+          6,
+          10
+        ],
+        "erasures": [],
+        "fault_weight": 4,
+        "mismatches": [
+          2,
+          3
+        ],
+        "support": [
+          1,
+          4,
+          5
+        ]
+      },
+      {
+        "codeword": [
+          9,
+          9,
+          14,
+          7,
+          5
+        ],
+        "coefficients": [
+          14,
+          1,
+          11
+        ],
+        "erasures": [],
+        "fault_weight": 4,
+        "mismatches": [
+          2,
+          5
+        ],
+        "support": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "codeword": [
+          9,
+          8,
+          12,
+          4,
+          1
+        ],
+        "coefficients": [
+          15,
+          0,
+          11
+        ],
+        "erasures": [],
+        "fault_weight": 4,
+        "mismatches": [
+          3,
+          4
+        ],
+        "support": [
+          1,
+          2,
+          5
+        ]
+      },
+      {
+        "codeword": [
+          9,
+          8,
+          13,
+          7,
+          7
+        ],
+        "coefficients": [
+          16,
+          7,
+          3
+        ],
+        "erasures": [],
+        "fault_weight": 4,
+        "mismatches": [
+          3,
+          5
+        ],
+        "support": [
+          1,
+          2,
+          4
+        ]
+      }
+    ],
+    "complete_list": true,
+    "erasures": 0,
+    "limit": 4,
+    "status": "AMBIGUOUS",
+    "unique_bound": false
+  },
+  "repairs": []
+}

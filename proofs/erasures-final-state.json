@@ -1,0 +1,138 @@
+{
+  "configuration": {
+    "cohort": "erasures",
+    "fault_limit": 2,
+    "hashes": [
+      "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+      "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+      "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+      "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+      "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+    ],
+    "prime": 17,
+    "repository": "mahdidaawsh-commits/residue-relay",
+    "urls": [
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+    ]
+  },
+  "observations": [
+    {
+      "position": 1,
+      "source": {
+        "cohort": "erasures",
+        "position": 1,
+        "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+      },
+      "status": "OBSERVED",
+      "value": 9
+    },
+    {
+      "position": 2,
+      "source": {
+        "cohort": "erasures",
+        "position": 2,
+        "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 2. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+      },
+      "status": "OBSERVED",
+      "value": "UNKNOWN"
+    },
+    {
+      "position": 3,
+      "source": {
+        "cohort": "erasures",
+        "position": 3,
+        "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 3. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+      },
+      "status": "OBSERVED",
+      "value": 14
+    },
+    {
+      "position": 4,
+      "source": {
+        "cohort": "erasures",
+        "position": 4,
+        "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 4. An earlier draft proposed symbol six. That draft was withdrawn. The current final observation is erased: no final observed symbol is available. A downstream repair suggestion of one is not an observation and must not fill this erasure."
+      },
+      "status": "OBSERVED",
+      "value": "UNKNOWN"
+    },
+    {
+      "position": 5,
+      "source": {
+        "cohort": "erasures",
+        "position": 5,
+        "text": "Public synthetic GF(17) coded-record fragment. Cohort erasures; evaluation position 5. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+      },
+      "status": "OBSERVED",
+      "value": 1
+    }
+  ],
+  "reconstruction": {
+    "candidates": [
+      {
+        "codeword": [
+          9,
+          1,
+          14,
+          14,
+          1
+        ],
+        "coefficients": [
+          4,
+          3,
+          2
+        ],
+        "erasures": [
+          2,
+          4
+        ],
+        "fault_weight": 2,
+        "mismatches": [],
+        "support": [
+          1,
+          3,
+          5
+        ]
+      }
+    ],
+    "complete_list": true,
+    "erasures": 2,
+    "limit": 2,
+    "status": "RECOVERED",
+    "unique_bound": true
+  },
+  "repairs": [
+    {
+      "coefficients": [
+        4,
+        3,
+        2
+      ],
+      "cohort": "erasures",
+      "observed": "UNKNOWN",
+      "polynomial_commitment": "9ee51fe59f6575e04f41992eba900cadef2e1def34776cc7ea79271320ecffb2",
+      "position": 2,
+      "recovered": 1,
+      "required": true,
+      "source_sha256": "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3"
+    },
+    {
+      "coefficients": [
+        4,
+        3,
+        2
+      ],
+      "cohort": "erasures",
+      "observed": "UNKNOWN",
+      "polynomial_commitment": "9ee51fe59f6575e04f41992eba900cadef2e1def34776cc7ea79271320ecffb2",
+      "position": 4,
+      "recovered": 14,
+      "required": true,
+      "source_sha256": "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480"
+    }
+  ]
+}

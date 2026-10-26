@@ -1,0 +1,297 @@
+[
+  {
+    "method": "probe",
+    "args": [
+      0
+    ],
+    "result": {
+      "candidates": [
+        {
+          "codeword": [
+            9,
+            1,
+            14,
+            14,
+            1
+          ],
+          "coefficients": [
+            4,
+            3,
+            2
+          ],
+          "erasures": [],
+          "fault_weight": 0,
+          "mismatches": [],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "complete_list": true,
+      "erasures": 0,
+      "limit": 0,
+      "status": "RECOVERED",
+      "unique_bound": true
+    }
+  },
+  {
+    "method": "probe",
+    "args": [
+      1
+    ],
+    "result": {
+      "candidates": [
+        {
+          "codeword": [
+            9,
+            1,
+            14,
+            14,
+            1
+          ],
+          "coefficients": [
+            4,
+            3,
+            2
+          ],
+          "erasures": [],
+          "fault_weight": 0,
+          "mismatches": [],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "complete_list": true,
+      "erasures": 0,
+      "limit": 1,
+      "status": "RECOVERED",
+      "unique_bound": true
+    }
+  },
+  {
+    "method": "probe",
+    "args": [
+      2
+    ],
+    "result": {
+      "candidates": [
+        {
+          "codeword": [
+            9,
+            1,
+            14,
+            14,
+            1
+          ],
+          "coefficients": [
+            4,
+            3,
+            2
+          ],
+          "erasures": [],
+          "fault_weight": 0,
+          "mismatches": [],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "complete_list": true,
+      "erasures": 0,
+      "limit": 2,
+      "status": "RECOVERED",
+      "unique_bound": true
+    }
+  },
+  {
+    "method": "probe",
+    "args": [
+      3
+    ],
+    "result": {
+      "candidates": [
+        {
+          "codeword": [
+            9,
+            1,
+            14,
+            14,
+            1
+          ],
+          "coefficients": [
+            4,
+            3,
+            2
+          ],
+          "erasures": [],
+          "fault_weight": 0,
+          "mismatches": [],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "complete_list": true,
+      "erasures": 0,
+      "limit": 3,
+      "status": "RECOVERED",
+      "unique_bound": false
+    }
+  },
+  {
+    "method": "probe",
+    "args": [
+      4
+    ],
+    "result": {
+      "candidates": [
+        {
+          "codeword": [
+            9,
+            1,
+            14,
+            14,
+            1
+          ],
+          "coefficients": [
+            4,
+            3,
+            2
+          ],
+          "erasures": [],
+          "fault_weight": 0,
+          "mismatches": [],
+          "support": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "complete_list": true,
+      "erasures": 0,
+      "limit": 4,
+      "status": "RECOVERED",
+      "unique_bound": false
+    }
+  },
+  {
+    "method": "repair_packet",
+    "args": [
+      1
+    ],
+    "result": {
+      "coefficients": [
+        4,
+        3,
+        2
+      ],
+      "cohort": "clean",
+      "observed": 9,
+      "polynomial_commitment": "0def4ffd4d7ee60c6e1da06bc771945654d3de28172f394b6a1392522ababd95",
+      "position": 1,
+      "recovered": 9,
+      "required": false,
+      "source_sha256": "eb12fca06f0440eee6cd765bcb027955e7886a4413cf347a9ab602a29b13bed7"
+    }
+  },
+  {
+    "method": "repair_packet",
+    "args": [
+      2
+    ],
+    "result": {
+      "coefficients": [
+        4,
+        3,
+        2
+      ],
+      "cohort": "clean",
+      "observed": 1,
+      "polynomial_commitment": "0def4ffd4d7ee60c6e1da06bc771945654d3de28172f394b6a1392522ababd95",
+      "position": 2,
+      "recovered": 1,
+      "required": false,
+      "source_sha256": "57b0d885d933defb85670aab790b1c4332e9d7853e1b39540f509b8310f77e27"
+    }
+  },
+  {
+    "method": "repair_packet",
+    "args": [
+      3
+    ],
+    "result": {
+      "coefficients": [
+        4,
+        3,
+        2
+      ],
+      "cohort": "clean",
+      "observed": 14,
+      "polynomial_commitment": "0def4ffd4d7ee60c6e1da06bc771945654d3de28172f394b6a1392522ababd95",
+      "position": 3,
+      "recovered": 14,
+      "required": false,
+      "source_sha256": "1197bced2361bd9eee573046b5885ee2573fb0138098181ac8984023bb618a2f"
+    }
+  },
+  {
+    "method": "repair_packet",
+    "args": [
+      4
+    ],
+    "result": {
+      "coefficients": [
+        4,
+        3,
+        2
+      ],
+      "cohort": "clean",
+      "observed": 14,
+      "polynomial_commitment": "0def4ffd4d7ee60c6e1da06bc771945654d3de28172f394b6a1392522ababd95",
+      "position": 4,
+      "recovered": 14,
+      "required": false,
+      "source_sha256": "c77488a5692185406c106f461219cc391240ba7a9b4ff3a65eee8ac31cb3b622"
+    }
+  },
+  {
+    "method": "repair_packet",
+    "args": [
+      5
+    ],
+    "result": {
+      "coefficients": [
+        4,
+        3,
+        2
+      ],
+      "cohort": "clean",
+      "observed": 1,
+      "polynomial_commitment": "0def4ffd4d7ee60c6e1da06bc771945654d3de28172f394b6a1392522ababd95",
+      "position": 5,
+      "recovered": 1,
+      "required": false,
+      "source_sha256": "e453c01fbdd2ba80b37fd1349d4d0b1fcc64d2a39b729ffe1bf609a1def3e3b9"
+    }
+  }
+]

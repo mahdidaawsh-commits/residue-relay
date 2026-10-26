@@ -1,0 +1,48 @@
+{
+  "configuration": {
+    "cohort": "ambiguous",
+    "fault_limit": 4,
+    "hashes": [
+      "072103e82962b9f1d94239f0f884f7e67f9eaeb2a4cf15ed4721cb61309931bd",
+      "584acaa578d3de3571db0df387d055a219b84df92676592f494d770bffcd86fb",
+      "5c583f42528e2f16ef533147ae28b932470eba54046541d0bdc474fdf1b2801f",
+      "f95ad1ab5b29f03ee32314d7827f5dfde696a9630807295ee53f0b3bdd1e4939",
+      "3a01104b5f0db4f8fefa076f7bd82fe397382aab1e81b78f139ed11a5ff39f7a"
+    ],
+    "prime": 17,
+    "repository": "mahdidaawsh-commits/residue-relay",
+    "urls": [
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/ambiguous-1.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/ambiguous-2.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/ambiguous-3.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/ambiguous-4.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/ambiguous-5.json"
+    ]
+  },
+  "observations": [
+    {
+      "position": 1,
+      "status": "UNSEEN"
+    },
+    {
+      "position": 2,
+      "status": "UNSEEN"
+    },
+    {
+      "position": 3,
+      "status": "UNSEEN"
+    },
+    {
+      "position": 4,
+      "status": "UNSEEN"
+    },
+    {
+      "position": 5,
+      "status": "UNSEEN"
+    }
+  ],
+  "reconstruction": {
+    "status": "COLLECTING"
+  },
+  "repairs": []
+}

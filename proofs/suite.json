@@ -1,0 +1,118 @@
+[
+  {
+    "id": "clean",
+    "network": "studionet",
+    "chain_id": 61999,
+    "contract": "0x2DD23AfEE03a9aEC3b1508962d7FFc0293a974CA",
+    "deployment": "0x3f8e7929bdc0710e3486598bffcc6b1312a6ca6cda5f96a86bc844f4569976b4",
+    "caller": "0x7d1bbaf3cfe93f0d2986c09dae714e2b4f422961",
+    "args": [
+      "mahdidaawsh-commits/residue-relay",
+      "clean",
+      [
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/clean-1.json",
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/clean-2.json",
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/clean-3.json",
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/clean-4.json",
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/clean-5.json"
+      ],
+      [
+        "eb12fca06f0440eee6cd765bcb027955e7886a4413cf347a9ab602a29b13bed7",
+        "57b0d885d933defb85670aab790b1c4332e9d7853e1b39540f509b8310f77e27",
+        "1197bced2361bd9eee573046b5885ee2573fb0138098181ac8984023bb618a2f",
+        "c77488a5692185406c106f461219cc391240ba7a9b4ff3a65eee8ac31cb3b622",
+        "e453c01fbdd2ba80b37fd1349d4d0b1fcc64d2a39b729ffe1bf609a1def3e3b9"
+      ],
+      2
+    ],
+    "fixture_revision": "2e2eb5085356a542432b3a7743a05a58f79ad48e",
+    "source_sha256": "7bda9b6ac4606cc2fc9a3afe58ebc11f978ca6de8ef087b5c2e7b39089f5e7d3"
+  },
+  {
+    "id": "corrupt",
+    "network": "studionet",
+    "chain_id": 61999,
+    "contract": "0xD11B6AFD5C50075C1b72162Cd678698bcfe88f3a",
+    "deployment": "0xf9e835e777edaed7036fcc076d38e08cda97fb2568244e5727365d325424d7b6",
+    "caller": "0x98207f702d1c17b88ca7238e496589681ac16487",
+    "args": [
+      "mahdidaawsh-commits/residue-relay",
+      "corrupt",
+      [
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/corrupt-1.json",
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/corrupt-2.json",
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/corrupt-3.json",
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/corrupt-4.json",
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/corrupt-5.json"
+      ],
+      [
+        "c7c151fa9eedb9d743b1e3d8200908c55ef8c23285dc9079f7da7a4045b5460c",
+        "a059d4a41365e487579ae03c869608421e166806c691e7f3a3f7b1048a979bdf",
+        "7ef414e8ac0441e4f5a857bef4d79b176030c0a3130080d7099fd4335360f48a",
+        "a77bb389a714f1416c83442c3b0efe3a9c7073c0d3fd0bcacda29ffc3ed14f10",
+        "24c3051e52f92f896f893bbbdf92ee931cf2dab8acd5147dfc3dc903b9a701c1"
+      ],
+      2
+    ],
+    "fixture_revision": "2e2eb5085356a542432b3a7743a05a58f79ad48e",
+    "source_sha256": "7bda9b6ac4606cc2fc9a3afe58ebc11f978ca6de8ef087b5c2e7b39089f5e7d3"
+  },
+  {
+    "id": "erasures",
+    "network": "studionet",
+    "chain_id": 61999,
+    "contract": "0x9f2A4CACFa3dF80FfA7f86EE61c8312a42CCE1b3",
+    "deployment": "0xb028ce6052d8d1b12130ba16084b2155e94948e13b1487589a3be4857df7e168",
+    "caller": "0x8be7d0c9043eee6d4b1c858d75ee0ee2a61571ed",
+    "args": [
+      "mahdidaawsh-commits/residue-relay",
+      "erasures",
+      [
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-1.json",
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-2.json",
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-3.json",
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-4.json",
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/erasures-5.json"
+      ],
+      [
+        "0a2441ddb2d915ee372c944ae2a2b52fd67b58bc4582197a9aa08cf8766d8632",
+        "4b7eb2f4fc80c1f88cc7187ebe8508bc3fe54cc58a0bf21d8e78e2128e0ff2c3",
+        "0270baae0009e647800da90d1a4e678a7ed6ed1547e99e04ee63edf957d5dd09",
+        "bf3a8141fb008dc520c0dfbd81ca732acfc5388e1f073d4d1afbabd38eda3480",
+        "c8f9935adadae05f02bf73e16259d7a3fd6d70a7f17ed441d5d5918ecd8621b8"
+      ],
+      2
+    ],
+    "fixture_revision": "2e2eb5085356a542432b3a7743a05a58f79ad48e",
+    "source_sha256": "7bda9b6ac4606cc2fc9a3afe58ebc11f978ca6de8ef087b5c2e7b39089f5e7d3"
+  },
+  {
+    "id": "ambiguous",
+    "network": "studionet",
+    "chain_id": 61999,
+    "contract": "0x3E4cD7092C72A2DDa8590317602c9fc9fF7b9697",
+    "deployment": "0x4db40c2e29e2b28d11c56330a93ebf000f0d5742feb82128bc01bb43e6cfd362",
+    "caller": "0x6f28714655b64fc010da24109f5bf7c43130cd82",
+    "args": [
+      "mahdidaawsh-commits/residue-relay",
+      "ambiguous",
+      [
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/ambiguous-1.json",
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/ambiguous-2.json",
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/ambiguous-3.json",
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/ambiguous-4.json",
+        "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/ambiguous-5.json"
+      ],
+      [
+        "072103e82962b9f1d94239f0f884f7e67f9eaeb2a4cf15ed4721cb61309931bd",
+        "584acaa578d3de3571db0df387d055a219b84df92676592f494d770bffcd86fb",
+        "5c583f42528e2f16ef533147ae28b932470eba54046541d0bdc474fdf1b2801f",
+        "f95ad1ab5b29f03ee32314d7827f5dfde696a9630807295ee53f0b3bdd1e4939",
+        "3a01104b5f0db4f8fefa076f7bd82fe397382aab1e81b78f139ed11a5ff39f7a"
+      ],
+      4
+    ],
+    "fixture_revision": "2e2eb5085356a542432b3a7743a05a58f79ad48e",
+    "source_sha256": "7bda9b6ac4606cc2fc9a3afe58ebc11f978ca6de8ef087b5c2e7b39089f5e7d3"
+  }
+]

@@ -89,6 +89,12 @@ validator criteria and oracle are specific to this primitive.
 
 [Contract source](contracts/residue_relay.py) · [Live proof journal](proofs/README.md)
 
+Deployed on gasless StudioNet: [primary corruption-recovery instance](https://explorer-studio.genlayer.com/address/0xD11B6AFD5C50075C1b72162Cd678698bcfe88f3a).
+Four scenarios passed 35 finalized `MAJORITY_AGREE` receipts (19 successful calls,
+16 intended rejections) and 35 views. Full code, calldata, source observations,
+repair packets and rollback checks match independent local replay.
+[Ready submission text](SUBMISSION.md).
+
 ## Limits
 
 The corpus and field are deliberately small, bounded and public. Hashes establish

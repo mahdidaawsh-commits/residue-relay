@@ -1,0 +1,108 @@
+{
+  "configuration": {
+    "cohort": "clean",
+    "fault_limit": 2,
+    "hashes": [
+      "eb12fca06f0440eee6cd765bcb027955e7886a4413cf347a9ab602a29b13bed7",
+      "57b0d885d933defb85670aab790b1c4332e9d7853e1b39540f509b8310f77e27",
+      "1197bced2361bd9eee573046b5885ee2573fb0138098181ac8984023bb618a2f",
+      "c77488a5692185406c106f461219cc391240ba7a9b4ff3a65eee8ac31cb3b622",
+      "e453c01fbdd2ba80b37fd1349d4d0b1fcc64d2a39b729ffe1bf609a1def3e3b9"
+    ],
+    "prime": 17,
+    "repository": "mahdidaawsh-commits/residue-relay",
+    "urls": [
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/clean-1.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/clean-2.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/clean-3.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/clean-4.json",
+      "https://raw.githubusercontent.com/mahdidaawsh-commits/residue-relay/2e2eb5085356a542432b3a7743a05a58f79ad48e/fragments/clean-5.json"
+    ]
+  },
+  "observations": [
+    {
+      "position": 1,
+      "source": {
+        "cohort": "clean",
+        "position": 1,
+        "text": "Public synthetic GF(17) coded-record fragment. Cohort clean; evaluation position 1. A provisional note proposed six; it was superseded. The current final observed symbol is nine (9). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+      },
+      "status": "OBSERVED",
+      "value": 9
+    },
+    {
+      "position": 2,
+      "source": {
+        "cohort": "clean",
+        "position": 2,
+        "text": "Public synthetic GF(17) coded-record fragment. Cohort clean; evaluation position 2. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+      },
+      "status": "OBSERVED",
+      "value": 1
+    },
+    {
+      "position": 3,
+      "source": {
+        "cohort": "clean",
+        "position": 3,
+        "text": "Public synthetic GF(17) coded-record fragment. Cohort clean; evaluation position 3. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+      },
+      "status": "OBSERVED",
+      "value": 14
+    },
+    {
+      "position": 4,
+      "source": {
+        "cohort": "clean",
+        "position": 4,
+        "text": "Public synthetic GF(17) coded-record fragment. Cohort clean; evaluation position 4. A provisional note proposed six; it was superseded. The current final observed symbol is fourteen (14). Preserve this reported symbol even if a decoder later finds it inconsistent. A proposed repair must not replace this observation."
+      },
+      "status": "OBSERVED",
+      "value": 14
+    },
+    {
+      "position": 5,
+      "source": {
+        "cohort": "clean",
+        "position": 5,
+        "text": "Public synthetic GF(17) coded-record fragment. Cohort clean; evaluation position 5. An early draft said six, but that draft was cancelled. The signed final observed symbol is minus sixteen, equivalent to residue one modulo seventeen. A future repair proposal is not part of the observation."
+      },
+      "status": "OBSERVED",
+      "value": 1
+    }
+  ],
+  "reconstruction": {
+    "candidates": [
+      {
+        "codeword": [
+          9,
+          1,
+          14,
+          14,
+          1
+        ],
+        "coefficients": [
+          4,
+          3,
+          2
+        ],
+        "erasures": [],
+        "fault_weight": 0,
+        "mismatches": [],
+        "support": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "complete_list": true,
+    "erasures": 0,
+    "limit": 2,
+    "status": "RECOVERED",
+    "unique_bound": true
+  },
+  "repairs": []
+}
